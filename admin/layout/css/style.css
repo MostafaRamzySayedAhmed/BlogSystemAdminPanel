@@ -1,0 +1,648 @@
+/* Starting The General Rules */
+
+body
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.asterisk
+{
+	position: relative;
+	top: -30px;
+	left: 540px;
+	color: #F00;
+	font-size: 25px;
+}
+
+.edit
+{
+	position: relative;
+	top: 10px;
+	margin-bottom: 40px;
+}
+
+.message-error
+{
+	position: absolute;
+	top: 10px;
+}
+
+.message-redirect
+{
+	position: relative;
+	top: 35px;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit]
+{
+    display: block;
+    margin-bottom: 10px!important;
+}
+
+/* Starting The Fotter Rules */
+
+.list
+{
+    margin-top: 250px;
+    background-color: #101010;
+    margin-bottom: 0px!important;
+    height: 120px;
+}
+
+.list ul.first
+{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.list ul.first li
+{
+    display: inline;
+    padding-right: 20px;
+}
+
+.list ul.first li a
+{
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+    transition: all 500ms;
+    color: #888;
+    text-decoration-line: none;
+    font-size: 15px;
+}
+
+.list ul.first li a:hover
+{
+    color: #EEE;
+    font-size: 20px;
+}
+
+.list p
+{
+    margin-top: 15px;
+    font-size: 15px;
+    color: #EEE;
+}
+
+.list p i
+{
+    font-size: 17px;
+}
+
+.list ul.second 
+{
+    list-style:none;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.list ul.second li 
+{
+    display:inline-block;
+}
+
+.list ul.second li a
+{
+    color: #888;
+    transition: all 500ms;
+}
+
+.list ul.second li a:hover
+{
+    margin-right: 20px;
+}
+
+/* Starting The Admin Login Rules */
+
+.background
+{
+    background-image: url("../images/blog.png");
+    background-size: cover;
+}
+
+.login
+{
+	margin-top: 250px;
+    margin-bottom: 146px;
+}
+
+.login input
+{
+	margin-top: 10px;
+}
+
+.login input[type=submit]
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Starting The Admin Navigation Bar Rules */
+
+.upper-bar
+{
+	margin: 5px 0px;
+}
+.upper-bar .my-image
+{
+	max-width: 35px;
+	max-height: 35px;
+}
+
+.my-info ul li a
+{
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.my-info ul li a:hover
+{
+	background-color: #EEE;
+	color: #000;
+	margin-left: 5px;
+}
+
+.navbar ul li a
+{
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+	transition: all 500ms;
+    font-size: 15px;
+}
+
+.navbar ul li a:hover
+{
+	color: #EEE;
+	font-size: 20px;
+}
+
+/* Starting The Dashboard Rules */
+
+.dashboard-heading
+{
+	text-align: center;
+	margin: 50px 0px;
+}
+
+.dashboard-statics .total-users
+{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	background-color: green;
+	color: #EEE;
+}
+
+.dashboard-statics .total-users h3
+{
+	margin-top: 70px;
+	font-weight: bold;
+}
+
+.dashboard-statics .total-users i
+{
+    font-size: 30px;
+    margin-right: 7px;
+}
+
+.dashboard-statics .total-users span a
+{
+	color: #EEE;
+    font-size: 30px;
+	text-decoration: none;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.dashboard-statics .total-users span a:hover
+{
+	background-color: #3F3F3F;
+	padding: 10px;
+	border: 1px solid #DDD;
+	border-radius: 50%;
+}
+
+.dashboard-statics .pending-users
+{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	background-color: #00678b;
+	color: #EEE;
+}
+
+.dashboard-statics .pending-users h3
+{
+	margin-top: 70px;
+	font-weight: bold;
+}
+
+.dashboard-statics .pending-users i
+{
+    font-size: 30px;
+    margin-right: 7px;
+}
+
+.dashboard-statics .pending-users span a
+{
+	color: #EEE;
+    font-size: 30px;
+	text-decoration: none;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.dashboard-statics .pending-users span a:hover
+{
+	background-color: #3F3F3F;
+	padding: 10px;
+	border: 1px solid #DDD;
+	border-radius: 50%;
+}
+
+.dashboard-statics .total-posts
+{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	background-color: blue;
+	color: #EEE;
+}
+
+.dashboard-statics .total-posts h3
+{
+	margin-top: 70px;
+	font-weight: bold;
+}
+
+.dashboard-statics .total-posts i
+{
+    font-size: 30px;
+    margin-right: 7px;
+}
+
+.dashboard-statics .total-posts span a
+{
+    color: #EEE;
+	font-size: 30px;
+	text-decoration: none;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.dashboard-statics .total-posts span a:hover
+{
+	background-color: #3F3F3F;
+	padding: 10px;
+	border: 1px solid #DDD;
+	border-radius: 50%;
+}
+
+.dashboard-statics .total-comments
+{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	background-color: grey;
+	color: #EEE;
+}
+
+.dashboard-statics .total-comments h3
+{
+	margin-top: 70px;
+	font-weight: bold;
+}
+
+.dashboard-statics .total-comments i
+{
+    font-size: 30px;
+    margin-right: 7px;
+}
+
+.dashboard-statics .total-comments span a
+{
+	color: #EEE;
+	font-size: 30px;
+	text-decoration: none;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+	transition: all 500ms;
+}
+
+.dashboard-statics .total-comments span a:hover
+{
+	background-color: #3F3F3F;
+	padding: 10px;
+	border: 1px solid #DDD;
+	border-radius: 50%;
+}
+
+.latest
+{
+	margin-top: 25px;
+}
+
+.latest .toggle-info 
+{
+	color: #999;
+	cursor: pointer;
+}
+
+.latest .toggle-info:hover 
+{
+	color: #444;
+}
+
+.latest .first-panel i
+{
+	position: relative;
+	right: 5px;
+}
+
+.first-panel ul li
+{
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+.first-panel ul li:nth-child(odd)
+{
+	background-color: #DDD;
+	border-radius: 10px;
+}
+
+.first-panel ul li a
+{
+	padding: 0px 10px;
+	margin-right: 10px;
+}
+
+.latest .first-panel .activate
+{
+	margin-right: 10px;
+}
+
+.latest .second-panel i
+{
+	position: relative;
+	right: 5px;
+}
+
+.second-panel ul li
+{
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+.second-panel ul li:nth-child(odd)
+{
+	background-color: #DDD;
+	border-radius: 10px;
+}
+
+.second-panel ul li a
+{
+	padding: 0px 10px;
+	margin-right: 10px;
+}
+
+
+.latest .second-panel .approve
+{
+	margin-right: 10px;
+}
+
+/* Starting The Users Rules */
+
+.user-table thead tr
+{
+	background-color: #1500CC;
+}
+
+.user-table th,td
+{
+	text-align: center;
+}
+
+.user-table th
+{
+	color: #EEE;
+}
+
+.user-table td
+{
+	color: #000;
+}
+
+.user-table img
+{
+	max-width: 35px;
+	max-height: 35px;
+	display: block;
+	margin: auto;
+}
+
+.user-table th, td
+{
+	text-align: center;
+}
+
+.user-table .activate
+{
+	margin-left: 5px;
+}
+
+.new-user i
+{
+	margin-right: 7px;
+}
+
+/* Starting The Posts Rules */
+
+.post-table thead tr
+{
+	background-color: #1500CC;
+}
+
+.post-table th,td
+{
+	text-align: center;
+}
+
+.post-table th
+{
+	color: #EEE;
+}
+
+.post-table td
+{
+	color: #000;
+}
+
+.post-table img
+{
+	max-width: 35px;
+	max-height: 35px;
+	display: block;
+	margin: auto;
+}
+
+.post-table .approve
+{
+	margin-left: 5px;
+}
+
+.new-post i
+{
+	margin-right: 7px;
+}
+
+/* Starting The Comments Rules */
+
+.comment-table thead tr
+{
+	background-color: #1500CC;
+}
+
+.comment-table th,td
+{
+	text-align: center;
+}
+
+.comment-table th
+{
+	color: #EEE;
+}
+
+.comment-table td
+{
+	color: #000;
+}
+
+.comment-table img
+{
+	max-width: 35px;
+	max-height: 35px;
+	display: block;
+	margin: auto;
+}
+
+.comment-table th, td
+{
+	text-align: center;
+}
+
+.comment-table .approve
+{
+	margin-left: 5px;
+}
+
+.comment-user i
+{
+	margin-right: 7px;
+}
+
+/* Starting The Categories Rules */
+
+.categories h1
+{
+    margin-bottom: 30px;
+}
+
+.category h3
+{
+    margin-top: 15px;
+}
+
+.category h3
+{
+    margin-bottom: 15px;
+}
+
+.category:last-child hr
+{
+    visibility: hidden;
+    margin-bottom: 5px;
+}
+
+.categories .panel .panel-heading i
+{
+    margin-right: 5px;
+}
+
+.category-buttons a:first-child i, .category-buttons a:last-child i
+{
+    margin-right: 5px;
+}
+
+.category-delete
+{
+    margin-left: 5px;
+}
+
+.category-hidden
+{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: #EEE;
+    margin-right: 10px;
+}
+
+.category-visibile
+{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    color: #EEE;
+    margin-right: 10px;
+}
+
+.category-comments-no
+{
+    background-color: purple;
+    padding: 5px;
+    border-radius: 5px;
+    color: #EEE;
+}
+
+.category-comments-yes
+{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    color: #EEE;
+}
+
+.new-category
+{
+    margin-bottom: 10px;
+}
+
+.new-category i
+{
+    margin-right: 5px;
+}
