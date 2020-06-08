@@ -17,4 +17,4 @@ It is a Responsive Dashboard for a Blog System Providing the Basic Features Need
 * Bootstrap
 * PHP
 * PHP (PDO)
-* MySQL
+* MySQL DB
