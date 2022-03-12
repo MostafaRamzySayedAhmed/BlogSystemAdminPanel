@@ -3,8 +3,7 @@ It's a Fully Responsive Dashboard for a Blog System, Providing the Basic Feature
 
 # The Features
 * The Responsive, Simple & Classic Design.
-* The Admin Can Make All CRUD Operations for All of a Blog System Modules **(Users, Posts, Categories & Comments)**.
-* The Admin Can Fully Control all of the Blog System Modules in an Easy & Simple Manner.
+* Admins Can Make All CRUD Operations on all Modules **(Users, Posts, Categories & Comments)** Easily.
 
 # The Used Technologies
 * HTML
