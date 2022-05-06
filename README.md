@@ -16,4 +16,4 @@ It's a Fully Responsive Dashboard for a Blog System, Providing The Basic Feature
 * Bootstrap
 * PHP
 * PHP (PDO)
-* MySQL DB
+* MySQL
