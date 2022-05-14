@@ -1,5 +1,5 @@
 # Blog System - Admin Panel
-It’s a Fully Responsive Dashboard for a Blog System.
+It’s a Fully Responsive Dashboard for a Blog System
 
 # The Features
 * The Responsive, Simple & Classic Design.
