@@ -8,9 +8,7 @@ It’s a Fully Responsive Dashboard for a Blog System.
 
 # The Used Technologies
 * HTML
-* HTML5
 * CSS
-* CSS3
 * Font Awesome CSS Library
 * Java Script
 * jQuery
