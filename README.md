@@ -10,7 +10,7 @@ It’s a Fully Responsive Dashboard for a Blog System.
 * HTML
 * CSS
 * Font Awesome CSS Library
-* Java Script
+* JavaScript
 * jQuery
 * Bootstrap
 * PHP
